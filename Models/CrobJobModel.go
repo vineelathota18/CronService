@@ -13,8 +13,8 @@ type CronJob struct {
 	HttpMethod		string		`json:"http_method"`
 	HttpHeader		string		`json:"http_header"`
 	PostData		string		`json:"post_data"`
-	RetryCount		int			`json:"retry_count"`
-	UserId			int			`json:"user_id"`
+	RetryCount		int		`json:"retry_count"`
+	UserId			int		`json:"user_id"`
 	Status			int 		`json:"status"`
 	CreatedAt		time.Time	`json:"created_at"`
 	UpdatedAT		time.Time	`json:"updated_at"`
